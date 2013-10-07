@@ -1,10 +1,10 @@
 package WWW::BBC::Track;
 
-# ABSTRACT: An object repesenting a track in a BBC radio programme
-# VERSION
-
 use Moose;
 use namespace::autoclean;
+
+# ABSTRACT: An object repesenting a track in a BBC radio programme
+# VERSION
 
 has 'artist' => (
     is => 'ro',

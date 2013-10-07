@@ -1,8 +1,5 @@
 package WWW::BBC::TrackListings;
 
-# ABSTRACT: Get track listings for BBC radio programmes
-# VERSION
-
 use Moose;
 use namespace::autoclean;
 
@@ -11,6 +8,9 @@ use URI;
 use FindBin::libs;
 
 use WWW::BBC::Track;
+
+# ABSTRACT: Get track listings for BBC radio programmes
+# VERSION
 
 has 'url' => (
     is => 'ro',
