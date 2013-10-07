@@ -75,7 +75,7 @@ Scrape of BBC radio programme pages to generate track listings.
 
 Returns all L<WWW::BBC::Track> listings of this programme.
 
-=head1 ATTIRUBTES
+=head1 ATTRIBUTES
 
 =head2 url
 
